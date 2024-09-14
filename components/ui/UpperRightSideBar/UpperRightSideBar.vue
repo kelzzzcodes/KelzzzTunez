@@ -7,3 +7,4 @@
         <h1 class="text-white">Upper Right Side Bar </h1>
     </section>
 </template>
+
