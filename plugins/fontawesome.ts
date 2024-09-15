@@ -9,7 +9,8 @@ import {
   faVolumeHigh,
   faEllipsis,
   faPlus,
-  faMinus
+  faMinus,
+  faBars,
 } from '@fortawesome/free-solid-svg-icons'
 import { faCirclePause, faHeart } from '@fortawesome/free-regular-svg-icons'
 import { defineNuxtPlugin } from '#app'
@@ -29,7 +30,8 @@ library.add(
   faEllipsis,
   faHeart,
   faPlus,
-  faMinus
+  faMinus,
+  faBars,
 )
 
 export default defineNuxtPlugin((nuxtApp) => {
