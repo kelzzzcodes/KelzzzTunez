@@ -1,43 +1,30 @@
 <script setup>
-
-
-
-
 </script>
 
 <template>
-    <main class="flex bg-[#171717] h-auto relative w-full">
-        <div class=" h-[calc(100vh-64px)] md:w-[8%] lg:w-[15%]">
-            <div class="hidden md:flex">
-
+    <main class="relative min-h-screen bg-[#171717] flex flex-col">
+        <!-- Content area, containing the sidebar and main section -->
+        <div class="flex flex-1">
+            <!-- Left Sidebar -->
+            <div class="hidden md:flex bg-[#171717] h-[calc(100vh-64px)] md:w-[8%] lg:w-[15%]">
                 <LeftSideBar />
 
             </div>
+            <Player />
 
+            <!-- Main content area (Player and slot) -->
+            <section class="flex-1 px-4 py-4 flex flex-col">
 
-            <Footer />
+                <!-- Slot content below Player -->
+                <div class=" mt-64 md:mt-80 bg-stone-500/50 flex-grow ">
+                    <slot />
+                </div>
+            </section>
         </div>
 
-        <section class="flex gap-2  bg-[#171717] flex-1 h-full ">
-
-            <div class="flex justify-between gap-2 w-full px-2 py-4 ">
-                <div class="w-full md:w-[70%] ">
-                    <div class=" md:pl-2 md:pr-6">
-                        <Player />
-                        <div class=" mt-72 md:mt-80 bg-stone-500/50 ">
-                            <slot />
-                        </div>
-                    </div>
-
-                </div>
-                <RightSideBar />
-            </div>
-
-
-
-
-        </section>
-
-
+        <!-- Footer always at the bottom -->
+        <footer class="w-full bg-black text-white py-4 mt-auto">
+            <Footer />
+        </footer>
     </main>
 </template>

@@ -11,6 +11,7 @@ import {
   faPlus,
   faMinus,
   faBars,
+  faMagnifyingGlass
 } from '@fortawesome/free-solid-svg-icons'
 import { faCirclePause, faHeart } from '@fortawesome/free-regular-svg-icons'
 import { defineNuxtPlugin } from '#app'
@@ -32,6 +33,7 @@ library.add(
   faPlus,
   faMinus,
   faBars,
+  faMagnifyingGlass
 )
 
 export default defineNuxtPlugin((nuxtApp) => {
