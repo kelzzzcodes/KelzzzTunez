@@ -1,4 +1,7 @@
 <script setup>
+definePageMeta({
+    middleware: 'auth' // Specify the middleware to protect this page
+});
 
 </script>
 

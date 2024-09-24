@@ -35,12 +35,12 @@
                     <span>Dj Khaled</span>
                 </p>
 
-                <ul class="flex items-center gap-2">
+                <ul class="flex items-center  gap-2">
                     <li>1:45</li>
-                    <li class="h-4 w-[200px]">
+                    <li class="h-4 w-[60vw]  md:w-[40vw] flex items-center">
 
                         <progress value="70" max="100"
-                            class="w-full h-4 bg-gray-200 rounded overflow-hidden appearance-none">
+                            class="w-full h-2  bg-gray-200 rounded overflow-hidden appearance-none">
                             <div class="w-3/4 h-full bg-green-500"></div>
                         </progress>
                     </li>

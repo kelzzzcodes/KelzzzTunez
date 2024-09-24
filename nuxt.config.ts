@@ -1,7 +1,7 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
   devtools: { enabled: false },
- css: [
+  css: [
     '@fortawesome/fontawesome-svg-core/styles.css', // Import FontAwesome styles
     '~/assets/css/main.css',
   ],
@@ -12,6 +12,6 @@ export default defineNuxtConfig({
     },
   },
 
-   modules: [],
+  modules: ['@pinia/nuxt'],
 
 })

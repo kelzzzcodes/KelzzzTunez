@@ -16,8 +16,12 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxtjs/fontawesome": "^1.1.2",
+    "@pinia/nuxt": "^0.5.4",
     "ajv": "^8.17.1",
+    "dotenv": "^16.4.5",
     "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "pinia-plugin-persistedstate": "^4.0.2",
     "vue": "latest",
     "vue-router": "latest"
   },
